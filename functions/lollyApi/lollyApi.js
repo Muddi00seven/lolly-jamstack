@@ -81,34 +81,6 @@ const resolvers = {
     },
   },
 
-//   Mutation: {
-//     craeteLolly: async (_, args) => {
-//       try {
-//         // const slug = shortId.generate();
-//         // args.slug = slug;
-
-//         const result = await Client.query(
-//           q.Create(q.Collection("lollies"), {
-//             data: args,
-//           })
-//         );
-
-//         axios
-//           .post("https://api.netlify.com/build_hooks/5fa268d2ab149a30870ead17")
-//           .then(function (response) {
-//             console.log(response);
-//           })
-//           .catch(function (error) {
-//             console.error(error);
-//           });
-
-//         return result.data;
-//       } catch (error) {
-//         return error.toString();
-//       }
-//     },
-//   },
-// };
 
 Mutation: {
   craeteLolly: async (_, args) => {
